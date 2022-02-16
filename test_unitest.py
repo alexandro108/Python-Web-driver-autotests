@@ -9,7 +9,7 @@ class TestAbs(unittest.TestCase):
         browser = webdriver.Chrome()
         browser.get(link)
 
-    # Ваш код, который заполняет обязательные поля
+    # Код, который заполняет обязательные поля
     
         input1 = browser.find_element_by_xpath("//input[@class='form-control first' and @required]")
         input1.send_keys("Ivan")
@@ -20,7 +20,7 @@ class TestAbs(unittest.TestCase):
         input3 = browser.find_element_by_xpath("//input[@class='form-control third' and @required]")
         input3.send_keys("Ivanovich")
     
-    # Отправляем заполненную форму
+    # Отправляется заполненная форма
         button = browser.find_element_by_css_selector("button.btn")
         button.click()
 
@@ -43,7 +43,7 @@ class TestAbs(unittest.TestCase):
         browser = webdriver.Chrome()
         browser.get(link)
 
-    # Ваш код, который заполняет обязательные поля
+    # Код, который заполняет обязательные поля
     
         input1 = browser.find_element_by_xpath("//input[@class='form-control first' and @required]")
         input1.send_keys("Ivan")
@@ -54,11 +54,11 @@ class TestAbs(unittest.TestCase):
         input3 = browser.find_element_by_xpath("//input[@class='form-control third' and @required]")
         input3.send_keys("Ivanovich")
     
-    # Отправляем заполненную форму
+    # Отправляется заполненная форму
         button = browser.find_element_by_css_selector("button.btn")
         button.click()
 
-    # Проверяем, что смогли зарегистрироваться
+    # Проверяю, что смогли зарегистрироваться
     # ждем загрузки страницы
         time.sleep(1)
 
