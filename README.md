@@ -1,3 +1,4 @@
+Автотесты на Selenium WebDriver + Python
 
 Тестирование ипотечного калькулятора:
 https://docs.google.com/spreadsheets/d/1SbDoZkFUaHJ_5hYjnP2WApP0qXwSW5HZgqWR0EwfZqU/edit?usp=sharing
